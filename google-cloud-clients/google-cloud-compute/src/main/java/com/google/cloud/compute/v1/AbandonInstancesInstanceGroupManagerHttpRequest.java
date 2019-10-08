@@ -473,6 +473,7 @@ public final class AbandonInstancesInstanceGroupManagerHttpRequest implements Ap
           userIp);
     }
 
+    @Override
     public Builder clone() {
       Builder newBuilder = new Builder();
       newBuilder.setAccessToken(this.access_token);
